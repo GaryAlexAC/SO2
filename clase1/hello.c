@@ -6,7 +6,7 @@ static char* message = "Hola mundo";
 static int counter  =1;
 
 module_param(counter, int, S_IRUGO);
-module_param(message, charp, S_IRUGO)
+module_param(message, charp, S_IRUGO);
 
 static int __init m_init(void)
 {
